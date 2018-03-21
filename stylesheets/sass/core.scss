@@ -1,0 +1,13 @@
+// CORE SASS FILE
+
+
+// Imported partials
+@import 'components/reset';
+
+// Master
+
+body{
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
