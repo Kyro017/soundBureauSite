@@ -97,6 +97,17 @@ ul {
   #navBarLogo:hover {
     cursor: pointer; }
 
+#jumboTron {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #jumboTron span {
+    font-family: 'Cantarell',sans-serif;
+    font-size: 3em;
+    color: #FFF;
+    position: relative;
+    top: 300px; }
+
 body {
   height: 100vh;
   width: 100vw;

@@ -1,0 +1,19 @@
+// This is the code for the jumboTron
+
+// Place Holders
+
+// IDs
+
+#jumboTron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  span{
+    font-family: 'Cantarell',sans-serif;
+    font-size: 3em;
+    color: #FFF;
+    position: relative;
+    top: 300px;
+  }
+}
