@@ -46,7 +46,95 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+hr {
+  width: 100%;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: none; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center; }
+  ul li {
+    height: 100%;
+    margin: 0 15px;
+    padding-bottom: 1px;
+    color: #FFF;
+    font-size: 1.7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer; }
+    ul li:hover {
+      color: #1BA3DE; }
+      ul li:hover .navBarDD {
+        display: block; }
+    ul li ul {
+      height: 100%;
+      width: 100%;
+      display: flex; }
+    ul li li {
+      width: 100%;
+      height: auto;
+      width: 100%;
+      margin: 10px 0px;
+      padding-left: 50px;
+      text-transform: capitalize;
+      letter-spacing: -.025em;
+      font-size: 1em;
+      align-items: center;
+      color: #FFF;
+      position: relative;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding-bottom: 1px;
+      cursor: pointer; }
+      ul li li:hover {
+        color: #1BA3DE; }
+
+.navBarDD {
+  height: auto;
+  width: auto;
+  background-color: #FFF;
+  position: absolute;
+  top: 65px;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  border-left: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  display: none; }
+  .navBarDD:hover {
+    cursor: default; }
+
+#navBar {
+  height: 66px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E5E5E5; }
+  #navBar #navBarContent {
+    height: 100%;
+    width: auto;
+    display: flex; }
+    #navBar #navBarContent li:first-child {
+      color: #1BA3DE; }
+    #navBar #navBarContent li:nth-child(2) {
+      margin-right: 0px; }
+    #navBar #navBarContent li:nth-child(3) {
+      fill: rgba(0, 0, 0, 0.64);
+      top: -2px; }
+      #navBar #navBarContent li:nth-child(3):hover {
+        fill: #1BA3DE; }
+
 body {
   height: 100vh;
   width: 100vw;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  background: url("../css/imgs/soundBureauHero.jpeg") no-repeat;
+  background-size: cover; }

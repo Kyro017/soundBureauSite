@@ -1,0 +1,132 @@
+// This is for the NavBar
+
+//VARIABLES
+$navBarHeight: 66px;
+$navBarBorderStyle: 1px solid #E5E5E5;
+
+//HIGH LEVEL ELEMENTS
+hr{
+  width: 100%;
+  border-top: 1px solid #E3E3E3;
+  border-bottom: none;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  li{
+    height: 100%;
+    margin: 0 15px;
+    padding-bottom: 1px;
+    color: #FFF;
+    font-size: 1.7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    &:hover{
+      color: #1BA3DE;
+
+      .navBarDD{
+        display: block;
+      }
+    }
+
+    ul{
+      height: 100%;
+      width:  100%;
+      display: flex;
+
+    }
+
+      li{
+        width: 100%;
+        height: auto;
+        width: 100%;
+        margin: 10px 0px;
+        padding-left: 50px;
+        text-transform: capitalize;
+        letter-spacing: -.025em;
+        font-size: 1em;
+
+      align-items: center;
+      color: #FFF;
+      position: relative;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding-bottom: 1px;
+      cursor: pointer;
+      &:hover{
+        color: #1BA3DE;
+      }
+    }
+  }
+}
+
+//PLACEHOLDERS
+
+//#navBar
+
+// **** DROP DOWN CODE
+
+.navBarDD{
+  height: auto;
+  width: auto;
+  background-color: #FFF;
+  position: absolute;
+  top: $navBarHeight - 1px;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  border-left: $navBarBorderStyle;
+  border-bottom: $navBarBorderStyle;
+  border-right: $navBarBorderStyle;
+  display: none;
+
+  &:hover{
+    cursor: default;
+  }
+}
+
+// ID's
+#navBar{
+  height: $navBarHeight;
+  width:  100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-sizing: border-box;
+  border-bottom: $navBarBorderStyle;
+
+  #navBarContent{
+    height: 100%;
+    width:  auto;
+    display: flex;
+
+    li:first-child{
+      color: #1BA3DE;
+    }
+
+    li:nth-child(2){
+      margin-right: 0px;
+    }
+
+    li:nth-child(3){
+      fill: rgba(0,0,0,.64);
+      top: -2px;
+
+      &:hover{
+        fill: #1BA3DE;
+      }
+    }
+
+    li:last-child{
+      // margin: 0px 0px 2px 5px;
+    }
+  }
+}
