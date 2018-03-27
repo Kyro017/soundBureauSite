@@ -54,14 +54,15 @@ ul {
   ul li {
     height: 100%;
     margin: 0 1px;
-    padding: 20px;
+    padding-right: 50px;
     color: #FFF;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 2em;
+    font-size: 2.7em;
     letter-spacing: .1em;
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     position: relative;
     cursor: pointer; }
     ul li:hover {
@@ -69,7 +70,8 @@ ul {
     ul li ul {
       height: 100%;
       width: 100%;
-      display: flex; }
+      display: flex;
+      padding-right: 30px; }
 
 #navBar {
   height: 75px;
@@ -77,12 +79,23 @@ ul {
   display: flex;
   justify-content: flex-end;
   padding: 0px 5px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #E5E5E5; }
+  background: linear-gradient(black, transparent); }
   #navBar #navBarContent {
     height: 100%;
     width: auto;
-    display: flex; }
+    display: flex;
+    align-items: center; }
+
+#navBarLogo {
+  height: 25%;
+  width: 25%;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  background: url("../css/imgs/soundBureauLogo.png") no-repeat;
+  background-size: contain; }
+  #navBarLogo:hover {
+    cursor: pointer; }
 
 body {
   height: 100vh;
