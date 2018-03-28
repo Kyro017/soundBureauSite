@@ -153,7 +153,18 @@ ul {
   justify-content: space-around; }
   #footer #footerContent li {
     font-size: 1.5em;
-    color: #808080; }
+    color: #808080;
+    margin-top: 50px; }
+  #footer #footerContent #footerIcon {
+    height: 50px;
+    width: 50px;
+    background: url("../css/imgs/Facebook-Icon-Grijs.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -37px;
+    left: 700px; }
+    #footer #footerContent #footerIcon:hover {
+      cursor: pointer; }
 
 body {
   height: 100vh;
