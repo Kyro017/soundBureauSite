@@ -16,6 +16,11 @@
   border-color: #505356;
   top: 777px;
 
+  &:hover{
+    cursor: pointer;
+    img: darken;
+
+  }
 }
 
 #sideKick2{
@@ -33,4 +38,8 @@
   top: 415px;
   left: 720px;
 
+  &:hover{
+    cursor: pointer;
+
+  }
 }
