@@ -110,12 +110,13 @@ ul {
     text-align: center; }
 
 #sideKick1 {
-  height: 363px;
+  height: 362px;
   width: 50vw;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url("../css/imgs/dadandFernandoSoundBureau.jpg") no-repeat;
   background-size: cover;
   box-sizing: border-box;
   border: solid;
@@ -123,7 +124,7 @@ ul {
   top: 777px; }
 
 #sideKick2 {
-  height: 363px;
+  height: 362px;
   width: 50vw;
   position: relative;
   display: flex;
@@ -134,7 +135,7 @@ ul {
   box-sizing: border-box;
   border: solid;
   border-color: #505356;
-  top: 414px;
+  top: 415px;
   left: 720px; }
 
 body {
