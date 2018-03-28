@@ -4,6 +4,7 @@
 // Imported partials
 @import 'components/reset';
 @import "components/navbar";
+@import "components/jumbotron";
 
 // Master
 
@@ -14,6 +15,6 @@ body{
   background: url('../css/imgs/soundBureauHero.jpeg') no-repeat;
   background-size: cover;
 }
- 
+
 // font-family: 'Fira Sans', sans-serif;
 // font-family: 'Cantarell', sans-serif;
