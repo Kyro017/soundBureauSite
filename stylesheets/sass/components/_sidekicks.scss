@@ -1,0 +1,44 @@
+// This is the code for the sidekicks
+
+// IDs
+
+#sideKick1{
+  height: 362px;
+  width: 50vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../css/imgs/dadandFernandoSoundBureau.jpg') no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #505356;
+  top: 777px;
+
+  &:hover{
+    cursor: pointer;
+    
+  }
+}
+
+#sideKick2{
+  height: 362px;
+  width: 50vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../css/imgs/soundBureauMicImg.jpeg') no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #505356;
+  top: 415px;
+  left: 720px;
+
+  &:hover{
+    cursor: pointer;
+
+  }
+}

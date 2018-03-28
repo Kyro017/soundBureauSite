@@ -109,6 +109,63 @@ ul {
     top: 300px;
     text-align: center; }
 
+#sideKick1 {
+  height: 362px;
+  width: 50vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../css/imgs/dadandFernandoSoundBureau.jpg") no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #505356;
+  top: 777px; }
+  #sideKick1:hover {
+    cursor: pointer; }
+
+#sideKick2 {
+  height: 362px;
+  width: 50vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../css/imgs/soundBureauMicImg.jpeg") no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  border: solid;
+  border-color: #505356;
+  top: 415px;
+  left: 720px; }
+  #sideKick2:hover {
+    cursor: pointer; }
+
+#footer {
+  height: 78px;
+  width: 100vw;
+  position: relative;
+  top: 415px;
+  background-color: #414141;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  #footer #footerContent li {
+    font-size: 1.5em;
+    color: #808080;
+    margin-top: 50px; }
+  #footer #footerContent #footerIcon {
+    height: 50px;
+    width: 50px;
+    background: url("../css/imgs/Facebook-Icon-Grijs.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    top: -37px;
+    left: 700px; }
+    #footer #footerContent #footerIcon:hover {
+      cursor: pointer; }
+
 body {
   height: 100vh;
   width: 100vw;
