@@ -122,11 +122,6 @@ ul {
   border: solid;
   border-color: #505356;
   top: 777px; }
-  #sideKick1:hover {
-    cursor: pointer; }
-    #sideKick1:hover p {
-      font-size: 1em;
-      font-family: 'Cantarell', sans-serif; }
 
 #sideKick2 {
   height: 362px;
@@ -142,8 +137,6 @@ ul {
   border-color: #505356;
   top: 415px;
   left: 720px; }
-  #sideKick2:hover {
-    cursor: pointer; }
 
 body {
   height: 100vh;
