@@ -116,10 +116,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-size: cover;
   box-sizing: border-box;
   border: solid;
-  border-color: #f00;
+  border-color: #505356;
   top: 777px; }
 
 #sideKick2 {
@@ -129,10 +129,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background: url("../css/imgs/soundBureauMicImg.jpeg") no-repeat;
+  background-size: cover;
   box-sizing: border-box;
   border: solid;
-  border-color: #f00;
+  border-color: #505356;
   top: 414px;
   left: 720px; }
 
