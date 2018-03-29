@@ -131,7 +131,9 @@ ul {
     #sideKicks #sideKick1:hover {
       cursor: pointer; }
       #sideKicks #sideKick1:hover .overlay {
-        display: block; }
+        display: flex;
+        justify-content: center;
+        align-items: center; }
   #sideKicks #sideKick2 {
     height: 100%;
     width: 50%;
@@ -147,14 +149,17 @@ ul {
     #sideKicks #sideKick2:hover {
       cursor: pointer; }
       #sideKicks #sideKick2:hover .overlay {
-        display: block; }
+        display: flex;
+        justify-content: center;
+        align-items: center; }
 
 .overlay {
   height: 100%;
   width: 100%;
-  display: block;
+  display: none;
   background-color: rgba(0, 0, 0, 0.5);
-  background-size: cover; }
+  background-size: cover;
+  color: #FFF; }
 
 #footer {
   height: 78px;
@@ -187,3 +192,8 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: sans-serif; }
+
+p {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.5em;
+  text-align: center; }

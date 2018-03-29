@@ -1,5 +1,6 @@
 // This is the code for the sidekicks
 
+
 // IDs
 
 #sideKicks{
@@ -27,7 +28,9 @@
     &:hover{
         cursor: pointer;
         .overlay{
-          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
     }
 
@@ -50,7 +53,9 @@
     &:hover{
       cursor: pointer;
       .overlay{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
@@ -63,8 +68,8 @@
 .overlay{
     height: 100%;
     width: 100%;
-    display: block;
+    display: none;
     background-color: rgba(0,0,0,.5);
     background-size: cover;
-
+    color: #FFF;
 }
