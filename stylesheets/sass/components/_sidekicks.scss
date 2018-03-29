@@ -1,44 +1,75 @@
 // This is the code for the sidekicks
 
+
 // IDs
 
-#sideKick1{
-  height: 362px;
-  width: 50vw;
+#sideKicks{
+  height: 50%;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url('../css/imgs/dadandFernandoSoundBureau.jpg') no-repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  border: solid;
-  border-color: #505356;
-  top: 777px;
 
-  &:hover{
-    cursor: pointer;
-    
+
+
+  #sideKick1{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../css/imgs/dadandFernandoSoundBureau.jpg') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #505356;
+
+    &:hover{
+        cursor: pointer;
+        .overlay{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+    }
+
+  }
+
+  #sideKick2{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../css/imgs/exampleVenue.jpg') no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #505356;
+
+
+    &:hover{
+      cursor: pointer;
+      .overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
   }
 }
 
-#sideKick2{
-  height: 362px;
-  width: 50vw;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url('../css/imgs/soundBureauMicImg.jpeg') no-repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  border: solid;
-  border-color: #505356;
-  top: 415px;
-  left: 720px;
 
-  &:hover{
-    cursor: pointer;
+//Classes
 
-  }
+.overlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: rgba(0,0,0,.5);
+    background-size: cover;
+    color: #FFF;
 }

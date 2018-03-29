@@ -8,16 +8,17 @@
 @import "components/sidekicks";
 @import "components/footer";
 
-
 // Master
 
 body{
   height: 100vh;
   width: 100vw;
   font-family: sans-serif;
-  background: url('../css/imgs/soundBureauHero.jpeg') no-repeat;
-  background-size: cover;
 }
 
-// font-family: 'Fira Sans', sans-serif;
-// font-family: 'Cantarell', sans-serif;
+
+p{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
