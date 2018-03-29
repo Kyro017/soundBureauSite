@@ -1,0 +1,40 @@
+// This is the footer of the page
+
+// IDs
+
+#footer{
+  height: 78px;
+  width: 100vw;
+  position: relative;
+  background-color: #414141;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+  bottom: 0;
+
+  #footerContent{
+    display: flex;
+    align-items: center;
+
+    li{
+      font-size: 1.5em;
+      color: #808080;
+    }
+
+    #footerIcon{
+      height: 50px;
+      width: 50px;
+      background: url('../css/imgs/Facebook-Icon-Grijs.png') no-repeat;
+      background-size: cover;
+      position: relative;
+      top: auto;
+      left: -5%;
+
+      &:hover{
+        cursor: pointer;
+      }
+
+    }
+  }
+}

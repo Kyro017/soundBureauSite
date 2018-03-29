@@ -1,0 +1,70 @@
+// This is for the NavBar
+
+//VARIABLES
+$navBarHeight: 75px;
+
+//HIGH LEVEL ELEMENTS
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  li{
+    height: 100%;
+    margin: 0 1px;
+    padding-right: 50px;
+    color: #FFF;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2.7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+
+    &:hover{
+      color: #BBB;
+    }
+  }
+}
+
+//PLACEHOLDERS
+
+// ID's
+#navBar{
+  height: $navBarHeight;
+  width:  100%;
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  position: absolute;
+  z-index: 2;
+
+
+  #navBarContent{
+    height: 100%;
+    width:  auto;
+    display: flex;
+    align-items: center;
+
+  }
+}
+
+#navBarLogo{
+  height: 200%;
+  width: 10%;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  background: url('../css/imgs/soundBureauLogo.png') no-repeat;
+  background-size: contain;
+  z-index: -1;
+
+  &:hover{
+    cursor: pointer;
+  }
+}

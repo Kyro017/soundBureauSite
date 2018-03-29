@@ -3,6 +3,10 @@
 
 // Imported partials
 @import 'components/reset';
+@import "components/navbar";
+@import "components/jumbotron";
+@import "components/sidekicks";
+@import "components/footer";
 
 // Master
 
@@ -10,4 +14,11 @@ body{
   height: 100vh;
   width: 100vw;
   font-family: sans-serif;
+}
+
+
+p{
+  font-family: 'Cantarell', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
