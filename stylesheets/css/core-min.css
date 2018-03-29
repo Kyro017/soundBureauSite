@@ -123,8 +123,7 @@ ul {
   border-color: #505356;
   top: 777px; }
   #sideKick1:hover {
-    cursor: pointer;
-    img: darken; }
+    cursor: pointer; }
 
 #sideKick2 {
   height: 362px;
