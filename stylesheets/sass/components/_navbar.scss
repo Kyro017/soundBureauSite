@@ -29,14 +29,6 @@ ul{
     &:hover{
       color: #BBB;
     }
-
-    ul{
-      height: 100%;
-      width:  100%;
-      display: flex;
-      padding-right: 30px;
-
-    }
   }
 }
 
@@ -45,11 +37,12 @@ ul{
 // ID's
 #navBar{
   height: $navBarHeight;
-  width:  100vw;
+  width:  100%;
   display: flex;
   justify-content: flex-end;
-  padding: 0px 5px;
   background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+  position: absolute;
+  z-index: 2;
 
 
   #navBarContent{
@@ -62,13 +55,14 @@ ul{
 }
 
 #navBarLogo{
-  height: 25%;
-  width: 25%;
+  height: 200%;
+  width: 10%;
   position: absolute;
   top: 12px;
   left: 15px;
   background: url('../css/imgs/soundBureauLogo.png') no-repeat;
   background-size: contain;
+  z-index: -1;
 
   &:hover{
     cursor: pointer;

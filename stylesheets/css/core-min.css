@@ -67,19 +67,15 @@ ul {
     cursor: pointer; }
     ul li:hover {
       color: #BBB; }
-    ul li ul {
-      height: 100%;
-      width: 100%;
-      display: flex;
-      padding-right: 30px; }
 
 #navBar {
   height: 75px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
-  padding: 0px 5px;
-  background: linear-gradient(black, transparent); }
+  background: linear-gradient(black, transparent);
+  position: absolute;
+  z-index: 2; }
   #navBar #navBarContent {
     height: 100%;
     width: auto;
@@ -87,88 +83,107 @@ ul {
     align-items: center; }
 
 #navBarLogo {
-  height: 25%;
-  width: 25%;
+  height: 200%;
+  width: 10%;
   position: absolute;
   top: 12px;
   left: 15px;
   background: url("../css/imgs/soundBureauLogo.png") no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  z-index: -1; }
   #navBarLogo:hover {
     cursor: pointer; }
 
 #jumboTron {
+  height: 150%;
+  width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  background: url("../css/imgs/soundBureauHero.jpeg") no-repeat;
+  background-size: cover; }
   #jumboTron span {
     font-family: 'Cantarell',sans-serif;
     font-size: 3.4em;
     color: #FFF;
     position: relative;
-    top: 300px;
     text-align: center; }
 
-#sideKick1 {
-  height: 362px;
-  width: 50vw;
+#sideKicks {
+  height: 50%;
+  width: 100%;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("../css/imgs/dadandFernandoSoundBureau.jpg") no-repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  border: solid;
-  border-color: #505356;
-  top: 777px; }
-  #sideKick1:hover {
-    cursor: pointer; }
+  justify-content: center; }
+  #sideKicks #sideKick1 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../css/imgs/dadandFernandoSoundBureau.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #505356; }
+    #sideKicks #sideKick1:hover {
+      cursor: pointer; }
+      #sideKicks #sideKick1:hover .overlay {
+        display: block; }
+  #sideKicks #sideKick2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../css/imgs/exampleVenue.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid;
+    border-color: #505356; }
+    #sideKicks #sideKick2:hover {
+      cursor: pointer; }
+      #sideKicks #sideKick2:hover .overlay {
+        display: block; }
 
-#sideKick2 {
-  height: 362px;
-  width: 50vw;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: url("../css/imgs/soundBureauMicImg.jpeg") no-repeat;
-  background-size: cover;
-  box-sizing: border-box;
-  border: solid;
-  border-color: #505356;
-  top: 415px;
-  left: 720px; }
-  #sideKick2:hover {
-    cursor: pointer; }
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: cover; }
 
 #footer {
   height: 78px;
   width: 100vw;
   position: relative;
-  top: 415px;
   background-color: #414141;
   display: flex;
   align-items: center;
-  justify-content: space-around; }
-  #footer #footerContent li {
-    font-size: 1.5em;
-    color: #808080;
-    margin-top: 50px; }
-  #footer #footerContent #footerIcon {
-    height: 50px;
-    width: 50px;
-    background: url("../css/imgs/Facebook-Icon-Grijs.png") no-repeat;
-    background-size: cover;
-    position: relative;
-    top: -37px;
-    left: 700px; }
-    #footer #footerContent #footerIcon:hover {
-      cursor: pointer; }
+  justify-content: space-around;
+  box-sizing: border-box;
+  bottom: 0; }
+  #footer #footerContent {
+    display: flex;
+    align-items: center; }
+    #footer #footerContent li {
+      font-size: 1.5em;
+      color: #808080; }
+    #footer #footerContent #footerIcon {
+      height: 50px;
+      width: 50px;
+      background: url("../css/imgs/Facebook-Icon-Grijs.png") no-repeat;
+      background-size: cover;
+      position: relative;
+      top: auto;
+      left: -5%; }
+      #footer #footerContent #footerIcon:hover {
+        cursor: pointer; }
 
 body {
   height: 100vh;
   width: 100vw;
-  font-family: sans-serif;
-  background: url("../css/imgs/soundBureauHero.jpeg") no-repeat;
-  background-size: cover; }
+  font-family: sans-serif; }
