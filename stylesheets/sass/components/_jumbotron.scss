@@ -5,21 +5,27 @@
 // IDs
 
 #jumboTron{
-  height: 150%;
+  height: 120%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   background: url('../css/imgs/soundBureauHero.jpeg') no-repeat;
   background-size: cover;
 
   span{
     font-family: 'Cantarell',sans-serif;
-    font-size: 3.4em;
+    font-size: 6em;
     color: #FFF;
     position: relative;
     // top: 300px;
     text-align: center;
+  }
+
+  #jumboTronShader{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

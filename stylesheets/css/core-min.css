@@ -95,20 +95,24 @@ ul {
     cursor: pointer; }
 
 #jumboTron {
-  height: 150%;
+  height: 120%;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   background: url("../css/imgs/soundBureauHero.jpeg") no-repeat;
   background-size: cover; }
   #jumboTron span {
     font-family: 'Cantarell',sans-serif;
-    font-size: 3.4em;
+    font-size: 6em;
     color: #FFF;
     position: relative;
     text-align: center; }
+  #jumboTron #jumboTronShader {
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
 
 #sideKicks {
   height: 50%;
@@ -157,9 +161,13 @@ ul {
   height: 100%;
   width: 100%;
   display: none;
+  position: relative;
   background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   color: #FFF; }
+  .overlay p {
+    position: relative;
+    top: 15%; }
 
 #footer {
   height: 78px;
