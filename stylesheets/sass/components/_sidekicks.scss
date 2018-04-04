@@ -69,7 +69,13 @@
     height: 100%;
     width: 100%;
     display: none;
+    position: relative;
     background-color: rgba(0,0,0,.5);
     background-size: cover;
     color: #FFF;
+
+    p{
+      position: relative;
+      top: 15%;
+    }
 }
